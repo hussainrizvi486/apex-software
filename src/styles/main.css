@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;500;700&display=swap');
+
+@import url("layouts/header.css");
+@import url("utils.css");
+
+
+
+:root {
+    --text-xs: .75rem;
+    --text-sm: .875rem;
+    --text-md: .9rem;
+    --text-lg: 1rem;
+    --text-xl: 1.15rem;
+    --text-xxl: 1.75rem;
+    --text-3xl: 2rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 2.5rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.web-container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/*  */
+
+.home-page__sec {
+    margin-top: 4rem;
+}
+
+.home-page__upper-sec {
+    padding-top: 4rem;
+}
+
+.home-page__card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.home-page__card {
+    padding: 2rem;
+    box-shadow: 0 0 10px #b5b5b5;
+    border-radius: .5rem;
+    /* background-color: #fff1f1; */
+    background-color: #efefef;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-page__sec {
+    padding-block
+    : 2rem;
+}
