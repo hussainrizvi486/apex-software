@@ -1,0 +1,61 @@
+.pg-form__row {
+    /* display: flex;
+    align-items: center; */
+
+}
+
+.pg-form__row .widget-container {
+    /* flex-basis: 100%; */
+    margin-bottom: 1rem;
+}
+
+.widget-label {
+    font-weight: 600;
+    margin-bottom: .35rem;
+    color: #2e2e2e;
+}
+
+.widget-field.input input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    border: 1px solid #727272;
+    border-radius: .25rem;
+    padding: .4rem 0.5rem;
+    outline-color: #2e2e2e;
+}
+
+.widget-field.textarea textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #727272;
+    border-radius: .25rem;
+    padding: .4rem 0.5rem;
+    outline-color: #2e2e2e;
+
+}
+
+.pg-form__field-container {
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .pg-form__row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .pg-form__row .widget-container {
+        flex-basis: 100%;
+        margin-bottom: 0;
+    }
+
+
+}
