@@ -1,6 +1,6 @@
-
 .pg-header-container {
-    padding-block: 1rem;
+    padding-block: .75rem;
+    box-shadow: 0 0 2px #d6d6d6;
 }
 
 .pg-header {
@@ -14,19 +14,22 @@
 .pg-header .pg-header__brand h1 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #FFF;
+    color: #333333;
+
 }
-
-
 
 .pg-header .pg-header__navbar {
     display: none;
-    align-items: center;
-    gap: 1rem;
 }
 
 .pg-header__navbar .nav-item {
-    color: #fFF;
+    color: #1d1d1d;
+}
+
+.nav-item:hover {
+    transition: all 150ms;
+    color: #b20000;
+
 }
 
 .pg-header__sm-menu {
@@ -48,6 +51,8 @@
 
     .pg-header .pg-header__navbar {
         display: flex;
+        align-items: center;
+        gap: 2rem;
     }
 
     .pg-header__sm-menu {

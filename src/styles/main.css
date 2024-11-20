@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url("layouts/layouts.css");
-@import url("utils.css");
 @import url("components.css");
 @import url("form.css");
+@import url("utils.css");
+
 
 
 
@@ -27,7 +28,9 @@
 /* bg-color-dark #131426 */
 
 #root {
-    background-color: #0d1117;
+    /* background-color: #0d1117; */
+    /* background-color: #1c232d; */
+    background-color: #ffffff;
 }
 
 
@@ -37,7 +40,7 @@
     box-sizing: border-box;
     font: inherit;
     font-family: "Outfit", serif;
-    color: #FFF;
+    color: #1b1b1b;
 }
 
 img,
@@ -74,63 +77,54 @@ body {
 }
 
 .pg-section {
-    padding-block: 4rem;
+    padding-block: 5rem;
     padding-inline: 1rem;
 }
 
 /*  */
-.pg--home-page {
-    /* background-color: #8fd1dd; */
-    /* padding-block: 4rem; */
-    /* color: #FFF; */
-    /* min-height: ; */
-    /* background-color: #131426; */
-    /* background-image: url("https://diffco.us/wp-content/themes/diffconew/static-template/build/images/service/frontend/top-desc-bg@2x.jpg");
-    background-size: cover; */
-}
+/* .pg--home-page {
+    background-image: url("https://www.exytex.com/admin/uploads/blogs/Slideri.png");
+    background-size: cover;
+} */
 
-.home-main {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+.home-main {}
 
 .pg-home__heading {
-    font-size: 2.75rem;
-    font-weight: 700;
-    /* color: #000; */
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .home-content {
-    padding-top: 2rem;
-    max-width: 600px;
+    max-width: 800px;
+
 }
+
+/* .pg-home__contex {
+    color: #e9e9e9;
+} */
 
 .home-cover-image img {
     max-width: 20rem;
 }
 
-/* .pg--home-page .pg-heading {
-    font-family: "Poppins", sans-serif;
 
-} */
-
-/* Contact page */
 .pg--contact-page {
-    background-color: #a2333b17;
+    /* background-color: #a2333b17; */
     /* background-color: #a2333b; */
     /* background-color: #a2333a31; */
+    /* background-color: #3231a0; */
+    background-color: #f6f6f6;
 }
 
-/* .pg--contact-page .widget-field.input input {
-    border-color: #FFF;
-    color: #FFF;
-    outline-color: #c8c8c8;
+.pg--contact-page .widget-field.input input {
+    border-color: #272727;
+    color: #2c2c2c;
+    outline-color: #565656;
 }
 
 .pg--contact-page .widget-label {
-    color: #FFF;
-} */
+    color: #2c2c2c;
+}
 
 .pg--contact-page .pg-section {
     display: flex;
@@ -169,6 +163,7 @@ body {
 .how-we-build__collapsable .content .left img {
     width: 40px;
     height: 40px;
+    filter: invert(.4);
 }
 
 .how-we-build__process .row {
@@ -184,7 +179,7 @@ body {
     display: flex;
     gap: 1rem;
     align-items: center;
-    background-color: #ffe6e6;
+    background-color: #d4d4d4;
     margin-bottom: .5rem;
 }
 
@@ -195,10 +190,15 @@ body {
 
 
 .service-card {
-    background: #141b23;
+    /* background: #141b23; */
+    /* border: 2px solid #212830; */
+    /* background: #305f8d;
+    border: 2px solid #214e7a; */
     border-radius: .35rem;
     padding: 1rem;
-    border: 2px solid #212830;
+    background: #f0f4f8;
+    border: 2px solid #f0f4f8;
+    box-shadow: 0 0px 4px #c8c8c8;
 }
 
 .service-card .left {
@@ -257,8 +257,9 @@ body {
 
 .technology-card:hover {
     cursor: pointer;
-    transition: all 200ms;
+    transition: all .8s .1s;
     box-shadow: 0 0 6px #cacaca;
+    transform: rotateX(360deg);
 }
 
 .technology-card__image img {
