@@ -108,8 +108,8 @@ function App() {
 
         <div className="pg--contact-page">
           <div className="app-container">
-            <div className="pg-section" >
-              <div className="text-content">
+            <div className="pg-section form-container" >
+              <div className="text-content form-left">
                 <div className="pg-heading">
                   Let’s build something <br />
                   great together
@@ -119,7 +119,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <form className="contact-form pg-form ml-auto">
+                <form className="contact-form pg-form ml-auto form-right">
                   <div className="pg-form__row pg-form__field-container" >
                     <div className="widget-container">
                       <div className="widget-label">
@@ -202,6 +202,185 @@ function App() {
           </div>
 
         </div>
+        {/* integrations section */}
+        <div className="">
+          <div className="app-container">
+            <div className="pg-section">
+              <div className="text-content">
+                <div className="pg-heading text-center">Integrations</div>
+                <div className="text-md mt-4 mb-16 text-center">
+                  We believe in turning ideas into reality and we're ready to join your journey. Reach out to us and let's start discussing your project.
+                </div>
+              </div>
+              <div className="items">
+                <div className="item">
+                  <div className="item__content">
+                    <h3>
+                      Payment platforms
+                    </h3>
+                    <p>
+                      PayPal, Stripe, Square, and Authorize.net
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="item__content">
+                    <h3>
+                      CRM systems
+                    </h3>
+                    <p>
+                      Salesforce, Hubspot, Pipedrive and Zoho
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="item__content">
+                    <h3>
+                      Help desks
+                    </h3>
+                    <p>
+                      Zendesk and Freshdesk
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="item__content">
+                    <h3>
+                      Communication APIs
+                    </h3>
+                    <p>
+                      Twilio, Sendgrid, and Mailchimp
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="item__content">
+                    <h3>
+                      Navigation and AI SDKs
+                    </h3>
+                    <p>
+                      Google and Apple
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        {/* how we can help you section */}
+
+        <div className="">
+          <div className="app-container">
+            <div className="pg-section">
+              <div className="text-content">
+                <div className="pg-heading text-center">How we can help you</div>
+                <div className="text-md mt-4 mb-16 text-center">
+                  Using powerful, industry-specific software solutions, our team can help you achieve your business goals.
+                </div>
+              </div>
+              <div className="g-help__box-container">
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-1.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center font-bold">Healthcare</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-2.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center font-bold">Finance</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-3.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center font-bold">Technology</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-4.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center font-bold">Retail and<br />E-commerce</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-5.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center font-bold">SaaS</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-6.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center  font-bold">Business services</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-7.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center  font-bold">Media and<br />entertainment</div>
+                </div>
+                <div className="g-help-box">
+                  <div className="g-help-box-icon mb-3">
+                    <img src="https://diffco.us/wp-content/uploads/2024/08/ic-ch-8.svg" alt="" />
+                  </div>
+                  <div className="g-help-box-name text-md text-center  font-bold">AI</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* faq section */}
+
+        <div className="">
+          <div className="app-container">
+            <div className="pg-section">
+              <div className="text-content">
+                <div className="pg-heading text-center mb-10">FAQ</div>
+              </div>
+              <div className="faq-container">
+                <div className="faq-box">
+                  <div className="fq-que-box">
+                    <div className="text-lg font-bold">What is custom web app development?</div>
+                    <div className="faq-icon">
+                      <img src="https://cdn3.iconfinder.com/data/icons/user-interface-169/32/plus-256.png" alt="" width={30} />
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-box">
+                  <div className="fq-que-box">
+                    <div className="text-lg font-bold">What is custom web app development?</div>
+                    <div className="faq-icon">
+                      <img src="https://cdn3.iconfinder.com/data/icons/user-interface-169/32/cross-256.png" alt="" width={25} />
+                    </div>
+                  </div>
+                  <div className="faq-que-about text-sm font-medium">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis quisquam unde magni quia sunt totam, ut illum, voluptate, velit doloribus eius obcaecati maiores repellendus dolore!
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis quisquam.
+                    </p>
+                  </div>
+                </div>
+                <div className="faq-box">
+                  <div className="fq-que-box">
+                    <div className="text-lg font-bold">What is custom web app development?</div>
+                    <div className="faq-icon">
+                      <img src="https://cdn3.iconfinder.com/data/icons/user-interface-169/32/plus-256.png" alt="" width={30} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
 
 
 

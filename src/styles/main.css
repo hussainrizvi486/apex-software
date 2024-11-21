@@ -128,7 +128,7 @@ body {
 
 .pg--contact-page .pg-section {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 
@@ -190,15 +190,11 @@ body {
 
 
 .service-card {
-    /* background: #141b23; */
-    /* border: 2px solid #212830; */
-    /* background: #305f8d;
-    border: 2px solid #214e7a; */
     border-radius: .35rem;
     padding: 1rem;
-    background: #f0f4f8;
-    border: 2px solid #f0f4f8;
-    box-shadow: 0 0px 4px #c8c8c8;
+    background: #ffffff;
+    border: 2px solid #fdfdfd;
+    box-shadow: 0 0px 4px #dcdcdc;
 }
 
 .service-card .left {
@@ -240,7 +236,7 @@ body {
 
 .technology-label.active {
     background: #f1f1f1;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .technology-card {
@@ -259,7 +255,6 @@ body {
     cursor: pointer;
     transition: all .8s .1s;
     box-shadow: 0 0 6px #cacaca;
-    transform: rotateX(360deg);
 }
 
 .technology-card__image img {
@@ -273,3 +268,109 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+
+/* integrations section*/
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: -6px;
+}
+
+.items .item {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+    padding: 6px;
+}
+
+.items .item__content {
+    background: rgba(255, 255, 255, .7);
+    border-radius: 12px;
+    padding: 32px 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #131426;
+    border: 1px solid #c2c2c2;
+}
+
+.items .item__content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.items .item__content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+
+/* how we can hrlp section */
+
+.g-help__box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+.g-help-box {
+    padding: 32px 24px;
+    min-width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    background: #f9f8fd;
+}
+
+.g-help-box-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 16px;
+}
+
+.g-help-box-name {
+    line-height: 18px;
+    color: #131426;
+    white-space: nowrap;
+}
+/* faq section */
+.faq-container{
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq-box{
+    margin-inline: 10px;
+    border-bottom: 1px dashed rgb(61, 61, 61);
+
+}
+.fq-que-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+
+}
+.faq-icon{
+    cursor: pointer;
+}
+.faq-que-about{
+    padding-block: 5px;
+    padding-inline-end: 20px;
+}
+
