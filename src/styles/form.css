@@ -1,3 +1,22 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form-left{
+    max-width: 500px;
+    background: #b4b5ffeb;
+    padding: 35px 40px;
+    border-radius: 1rem 0rem 0rem 1rem;
+    box-shadow: 0 0px 4px #9d90edeb;
+}
+.form-right{
+    background: #ffffff;
+    padding: 40px 55px;
+    border-radius: 0rem 1rem 1rem 0rem;
+    box-shadow: 0 0px 4px #dcdcdc;
+}
+
+
 .pg-form__row {
     /* display: flex;
     align-items: center; */

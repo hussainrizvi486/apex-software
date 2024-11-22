@@ -8,20 +8,16 @@ export const TechnologiesSection: React.FC = () => {
                 "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
             },
             {
-                "label": "Tailwind CSS",
-                "image": "https://cdn.discordapp.com/attachments/1019570480782524478/1308536106811392101/Tailwind.png?ex=673e4cb7&is=673cfb37&hm=2eb5a4c52a7f12dd9a05106f6412620a4342f70a288c8cce8e22f7f61e2c0458&"
-            },
-            {
                 "label": "TypeScript",
                 "image": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
             },
             {
-                "label": "JavaScript",
-                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
-            },
-            {
                 "label": "Rest API",
                 "image": "https://cdn.discordapp.com/attachments/1019570480782524478/1308536012271779840/pngegg.png?ex=673e4ca0&is=673cfb20&hm=e19b7827e90316415f2646db4b235b0687baf647f0aae84b3d951eea13b1fa45&"
+            },
+            {
+                "label": "JavaScript",
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
             },
             {
                 "label": "HTML",
@@ -34,6 +30,10 @@ export const TechnologiesSection: React.FC = () => {
             {
                 "label": "Sass",
                 "image": "https://cdn.discordapp.com/attachments/1019570480782524478/1308536176159752232/pngegg_5.png?ex=673e4cc7&is=673cfb47&hm=9ddb1a5466d635e7b72160a2ea7853c557b7da64893cb5e631049a31518b351c&"
+            },
+            {
+                "label": "Tailwind CSS",
+                "image": "https://cdn.discordapp.com/attachments/1019570480782524478/1308536106811392101/Tailwind.png?ex=673e4cb7&is=673cfb37&hm=2eb5a4c52a7f12dd9a05106f6412620a4342f70a288c8cce8e22f7f61e2c0458&"
             },
         ],
         "Backend": [
@@ -55,7 +55,7 @@ export const TechnologiesSection: React.FC = () => {
 
             { "label": "Nginx", "image": "https://cdn.discordapp.com/attachments/1019570480782524478/1308563296567427082/pngegg.png?ex=673e6609&is=673d1489&hm=603dcf3193f9dd01459060e63cce7e0962523a6cef2303b1f5e8d33a0efa6ac0&" },
             { "label": "Firebase", "image": "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" },
-            { "label": "Digital Ocean", "image": "https://static-00.iconduck.com/assets.00/digitalocean-icon-2048x2048-4col409s.png" },
+            { "label": "Digital Ocean", "image": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/89_Digital_Ocean_logo_logos-256.png" },
             { "label": "AWS", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVj0jisdcvxnjyylo9HUKwS1p89RniwBu9Ew&s" },
         ],
     }

@@ -30,8 +30,8 @@ export const ServiceCard: React.FC<TypeServiceProps> = ({ service }) => {
                 </div>
 
                 <div className="mt-3 flex gap">
-                    <button className="btn btn-sm btn-primary">Let's chat</button>
-                    <button className="btn-outline btn btn-sm ">Learn More</button>
+                    <button className="btn btn-sm btn-primary font-medium">Let's chat</button>
+                    {/* <button className="btn-outline btn btn-sm ">Learn More</button> */}
                 </div>
             </div>
 

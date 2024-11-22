@@ -80,4 +80,13 @@
 
 .pg-footer .policy-seprator {
     margin-right: .5rem;
+    cursor: pointer;
+}
+.pg-footer .policy-seprator:hover {
+    color: #b20000;
+}
+.pg-footer_icons img{
+    background-color: #565656;
+    padding: 3px;
+    
 }
